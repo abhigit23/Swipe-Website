@@ -1,7 +1,7 @@
 const hamburgerButton = document.querySelector(".hamburger-button");
 const mobileNavbar = document.querySelector(".mobile-nav-container");
 const closeButton = document.querySelector(".close-button");
-const mql = window.matchMedia("(min-width:768px)");
+const mql = window.matchMedia("(min-width:770px)");
 
 hamburgerButton.addEventListener("click", () => {
   mobileNavbar.classList.add("show-mobile-navbar");
